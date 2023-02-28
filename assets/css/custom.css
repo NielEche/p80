@@ -1,0 +1,167 @@
+
+.main-header {
+    position: absolute !important;
+}
+
+ 
+.firstheadtext {	
+	text-overflow: ellipsis;
+	opacity: 1;
+	font-size: 22px !important;
+	font-weight: 300 !important;
+	margin-bottom: 10px !important;
+}
+
+.newfigure img{
+	filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+  filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
+}
+
+.newfigure img:hover{
+	-webkit-filter: grayscale(0);
+  filter: none;
+}
+
+.ld-pf-item .ld-pf-bg {
+  background:none !important;
+}
+
+.main-nav .link-txt .txt {
+  color: #fff !important;
+}
+
+
+@media screen and (max-width: 1199px)
+[data-mobile-nav-style=modern]{ 
+  background-image: linear-gradient(to top left, #000 0%, #000 100%) !important ;
+  
+}
+
+.visible-xs {
+  @media (max-width: @screen-phone-max) {
+  .responsive-visibility();
+  }  
+  @media (min-width: @screen-tablet) and (max-width: @screen-tablet-max) {
+    .responsive-invisibility();
+  }
+  @media (min-width: @screen-desktop) and (max-width: @screen-desktop-max) {
+    .responsive-invisibility();
+  }
+  @media (min-width: @screen-large-desktop) {
+    .responsive-invisibility();
+  }
+}
+.visible-sm {
+  @media (max-width: @screen-phone-max) {
+  .responsive-invisibility();
+  }
+  &.visible-xs {
+    @media (max-width: @screen-phone-max) {
+      .responsive-visibility();
+    }    
+  }
+  @media (min-width: @screen-tablet) and (max-width: @screen-tablet-max) {
+    .responsive-visibility();
+  }
+  @media (min-width: @screen-desktop) and (max-width: @screen-desktop-max) {
+    .responsive-invisibility();
+  }
+  @media (min-width: @screen-large-desktop) {
+    .responsive-invisibility();
+  }
+}
+.visible-md {
+  @media (max-width: @screen-phone-max) {  
+  .responsive-invisibility();
+  }
+  &.visible-xs {
+    @media (max-width: @screen-phone-max) {  
+      .responsive-visibility();
+    }    
+  }
+  @media (min-width: @screen-tablet) and (max-width: @screen-tablet-max) {
+    .responsive-invisibility();
+  }
+  &.visible-sm {
+    @media (min-width: @screen-tablet) and (max-width: @screen-tablet-max) {
+      .responsive-visibility();
+    }    
+  }
+  @media (min-width: @screen-desktop) and (max-width: @screen-desktop-max) {
+    .responsive-visibility();
+  }
+  @media (min-width: @screen-large-desktop) {
+    .responsive-invisibility();
+  }
+}
+.visible-lg {
+  @media (max-width: @screen-phone-max) {
+  .responsive-invisibility();
+  }
+  &.visible-xs {
+    @media (max-width: @screen-phone-max) {
+      .responsive-visibility();
+    }    
+  }
+  @media (min-width: @screen-tablet) and (max-width: @screen-tablet-max) {
+    .responsive-invisibility();
+  }
+  &.visible-sm {
+    @media (min-width: @screen-tablet) and (max-width: @screen-tablet-max) {
+      .responsive-visibility();
+    }    
+  }
+  @media (min-width: @screen-desktop) and (max-width: @screen-desktop-max) {
+    .responsive-invisibility();
+  }
+  &.visible-md {
+    @media (min-width: @screen-desktop) and (max-width: @screen-desktop-max) {
+      .responsive-visibility();
+    }    
+  }
+  @media (min-width: @screen-large-desktop) {
+    .responsive-visibility();
+  }
+}
+
+
+.footercolor{
+	color:#fff !important;
+}
+
+.liquid-progressbar-title1 {
+
+    margin: 0;
+    position: absolute;
+    top: -2.2em;
+    font-size: 1em;
+    color: 
+
+    #808291;
+
+}
+
+
+.main-nav2 > li.active > a, .main-nav2 > li.current-menu-item > a, .main-nav2 > li > a:hover {
+    color: 
+    #fff !important;
+}
+
+.lqd-stack-page-number-current{
+	color: #fff !important;
+}
+
+.lqd-stack-page-number{
+	color: #fff !important;
+}
+
+.bars{
+	background-color: none !important;
+}
+
+.bar {
+
+	background-color: #fff !important;
+	color: #000 !important;
+}
